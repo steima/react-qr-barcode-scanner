@@ -9,7 +9,6 @@
     "dist"
   ],
   "scripts": {
-    "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx --fix",
     "build": "rm -rf dist && tsc --build tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -37,14 +36,10 @@
   },
   "dependencies": {
     "@types/react": "^17.0.2",
-    "@zxing/library": "^0.19.1",
+    "@zxing/library": "^0.18.2",
     "react-webcam": "^7.0.1"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.33.0",
-    "@typescript-eslint/parser": "^2.33.0",
-    "eslint": "^8.23.0",
-    "eslint-plugin-react": "^7.31.1",
     "typescript": "^3.9.2"
   }
 }
