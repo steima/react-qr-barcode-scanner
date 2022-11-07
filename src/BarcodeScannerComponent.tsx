@@ -81,7 +81,7 @@ const BarcodeScannerComponent = ({
     return () => {
       clearInterval(interval);
     };
-  }, []);
+  }, [capture,delay]);
 
   return (
     <Webcam
